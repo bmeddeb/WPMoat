@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: WP Moat
- * Plugin URI: https://github.com/your-repo/wp-moat
+ * Plugin URI: https://github.com/bmeddeb/WPMoat.git
  * Description: A modern, modular WordPress security plugin with path hiding, firewall, brute force protection, and more.
  * Version: 1.0.0
  * Requires at least: 6.0
  * Requires PHP: 8.0
- * Author: Your Name
- * Author URI: https://your-site.com
+ * Author: Ben Meddeb
+ * Author URI: https://ben.meddeb.me/wp-moat
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: wp-moat
