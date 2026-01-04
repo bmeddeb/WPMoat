@@ -1,0 +1,39 @@
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# --- PHP / Composer ---
+vendor/
+composer.phar
+*.log
+.phpunit.result.cache
+
+# --- OS / IDEs ---
+.DS_Store
+.vscode/
+.idea/
+.env
+EOF
+
+# --- AI Agents & IDE Assistants ---
+.cursor/                # Cursor IDE indexing & settings
+.cursorrules           # (Optional) Rules for Cursor
+.cursorindexingignore
+.windsurf/             # Windsurf indexing & state
+.windsurfignore
+.aider* # Aider history, chat logs, and settings
+!.aiderignore          # DO NOT ignore the aider config file itself
+.claude/               # Claude Code logs and local state
+.aiexclude             # Standard AI exclusion file
+scratchpad.md          # Common name for AI brainstorming files
+AI_NOTES.md
+CLAUDE.md

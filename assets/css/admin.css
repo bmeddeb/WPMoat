@@ -1,0 +1,164 @@
+/**
+ * WP Moat Admin Styles
+ *
+ * @package WPMoat
+ */
+
+/* Dashboard Layout */
+.wp-moat-dashboard {
+	max-width: 1200px;
+}
+
+.wp-moat-dashboard .wp-moat-header {
+	margin-bottom: 20px;
+}
+
+.wp-moat-dashboard .wp-moat-header h1 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.wp-moat-dashboard .wp-moat-header .dashicons-shield {
+	font-size: 32px;
+	width: 32px;
+	height: 32px;
+}
+
+/* Module Cards */
+.wp-moat-modules-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.wp-moat-module-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+}
+
+.wp-moat-module-card h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.wp-moat-module-card .status-indicator {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-left: auto;
+}
+
+.wp-moat-module-card .status-indicator.active {
+	background-color: #00a32a;
+}
+
+.wp-moat-module-card .status-indicator.inactive {
+	background-color: #c3c4c7;
+}
+
+.wp-moat-module-card p {
+	color: #646970;
+	margin-bottom: 15px;
+}
+
+.wp-moat-module-card .actions {
+	display: flex;
+	gap: 10px;
+}
+
+/* Status Badges */
+.wp-moat-status-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.wp-moat-status-badge.active {
+	background-color: #d4edda;
+	color: #155724;
+}
+
+.wp-moat-status-badge.inactive {
+	background-color: #e2e3e5;
+	color: #383d41;
+}
+
+.wp-moat-status-badge.warning {
+	background-color: #fff3cd;
+	color: #856404;
+}
+
+/* Quick Stats */
+.wp-moat-stats {
+	display: flex;
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.wp-moat-stat-box {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+	flex: 1;
+	text-align: center;
+}
+
+.wp-moat-stat-box .stat-number {
+	font-size: 36px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.wp-moat-stat-box .stat-label {
+	color: #646970;
+	margin-top: 5px;
+}
+
+/* Settings Form */
+.wp-moat-settings-form .form-table th {
+	width: 250px;
+}
+
+.wp-moat-settings-form .description {
+	font-style: normal;
+	color: #646970;
+}
+
+/* Notices */
+.wp-moat-notice {
+	padding: 12px;
+	border-left-width: 4px;
+	border-left-style: solid;
+	margin: 15px 0;
+}
+
+.wp-moat-notice.success {
+	border-left-color: #00a32a;
+	background-color: #d4edda;
+}
+
+.wp-moat-notice.warning {
+	border-left-color: #dba617;
+	background-color: #fff3cd;
+}
+
+.wp-moat-notice.error {
+	border-left-color: #d63638;
+	background-color: #f8d7da;
+}
+
+.wp-moat-notice.info {
+	border-left-color: #72aee6;
+	background-color: #e7f3ff;
+}
